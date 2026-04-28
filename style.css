@@ -1,0 +1,116 @@
+body {
+    background-color: #131518;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #1f2630;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.star-icon {
+    background-color: #262e38;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #959eac;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.ratings-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.rating-btn {
+    background-color: #262e38;
+    color: #959eac;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.rating-btn:hover {
+    background-color: #fc7614;
+    color: white;
+}
+
+.rating-btn.active {
+    background-color: #7c8798;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #fc7614;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: #fc7614;
+}
+
+
+.error-msg {
+    color: #ff6a6a; 
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank-you-state {
+    text-align: center;
+}
+
+.result-badge {
+    background-color: #262e38;
+    color: #fc7614;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 15px 0;
+}
